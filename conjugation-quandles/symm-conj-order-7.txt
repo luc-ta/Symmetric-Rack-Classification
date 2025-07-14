@@ -1,3 +1,0 @@
-List of symmetric subquandles of Conj G for nonabelian groups G of order 7
- 
-Number of symmetric conjugation quandles of groups of order 7: 0
