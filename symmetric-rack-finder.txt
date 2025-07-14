@@ -1,0 +1,112 @@
+return function(n,k)
+local Sn, isoClasses, quandles, kei, nonisomorphicRacks, i, R, notHomsOfR, underlyingCount, rho, G, valid, C, j, seen, homCandidates, G2, rho2, homFound, phi, l, isQuandle, isKei;
+Sn := SymmetricGroup(n);
+isoClasses := [];
+quandles := 0;
+kei := 0;
+nonisomorphicRacks := 1;
+PrintTo(Concatenation(GLR.path, "symmetric_racks_of_order_", String(n), ".txt"), "return [ ");
+PrintTo(Concatenation(GLR.path, "symmetric_quandles_of_order_", String(n), ".txt"), "return [ ");
+PrintTo (Concatenation(GLR.path, "symmetric_kei_of_order_", String(n), ".txt"),"return [ ");
+Print("Beginning search for symmetric racks of order ",String(n),".\n");
+
+for i in [1..k] do # test for good involutions
+
+	R := LRQ.Rack(n,i);
+	if n = 2 then
+		if i = 1 then
+			R := [(),()]; # in the rack library, LRQ.Rack(2,1) is stored as [()], for whatever reason
+		fi;
+	fi;
+	# is R a quandle?
+	isQuandle := ForAll([1..n], j -> j^R[j] = j);
+	isKei := isQuandle and ForAll([1..n], j -> R[j]^2 = ());
+	notHomsOfR := [];
+	underlyingCount := 0;
+	
+	Print("Searching for good involutions of rack ",String(i)," of ",String(k),"...\n");
+	G:=Centralizer(Sn,Group(R));
+	for rho in G do
+		valid := true;
+		# Is rho an involution?
+		if rho^2 <> () then
+			valid := false;
+			continue;
+		fi;
+		# Is rho good?
+		for j in [1..n] do 
+			if R[j^rho] <> R[j]^-1 then
+				valid := false;
+				continue;
+			fi;
+		od;
+		
+		if valid = true then 
+			# (R, rho) is a symmetric rack
+			# check whether (R, rho) is isomorphic to a previously known symmetric rack G2 = (R, rho2)
+			seen := false;
+			C := ConjugacyClass(Sn, rho);
+			
+			if underlyingCount <> 0 then
+			
+				for j in [nonisomorphicRacks..Length(isoClasses)] do # suffices since a rack isomorphism is also an isomorphism of the underlying racks
+					G2 := isoClasses[j];
+					rho2 := G2[2];
+					# (R,rho) and (R,rho2) are isomorphic iff rho and rho2 are conjugate in the rack automorphism group
+					if not rho2 in C then
+						continue;
+					fi;
+					
+					# search for a symmetric rack isomorphism from (R,rho) to (R,rho2)
+					# note that function composition is left to right in GAP
+					homFound := false;
+					homCandidates := AsList(RightCoset(Centralizer(Sn,rho),RepresentativeAction(Sn,rho,rho2))); # conjugators of rho and rho2
+					for phi in homCandidates do
+						# Have we already seen that phi isn't in Aut(R)?
+						if phi in notHomsOfR then continue; fi;
+						# Is phi is a rack automorphism?
+						homFound := true;
+						for l in [1..n] do
+							if R[l]*phi <> phi*R[l^phi] then
+								Add(notHomsOfR, phi);
+								homFound := false;
+								break;
+							fi;
+						od;
+						if homFound = true then
+							seen := true;
+							break;
+						fi;
+					od;
+					if seen = true then
+						break;
+					fi;
+				od;
+			fi;
+			
+			if seen = false then
+				# found a brand-new symmetric rack
+				underlyingCount := underlyingCount + 1;
+				Add(isoClasses,[R,rho]);
+				AppendTo (Concatenation(GLR.path, "symmetric_racks_of_order_", String(n), ".txt"), Concatenation(String([R,rho]),",\n"));
+				if isQuandle then
+					quandles := quandles + 1;
+					AppendTo (Concatenation(GLR.path, "symmetric_quandles_of_order_", String(n), ".txt"), Concatenation(String([R,rho]),",\n"));
+					if isKei then
+						kei := kei + 1;
+						AppendTo (Concatenation(GLR.path, "symmetric_kei_of_order_", String(n), ".txt"), Concatenation(String([R,rho]),",\n"));
+					fi;
+				fi;
+			fi;
+		fi;
+	od;
+	nonisomorphicRacks := nonisomorphicRacks + underlyingCount;
+od;
+
+AppendTo (Concatenation(GLR.path, "symmetric_racks_of_order_", String(n), ".txt")," ];");
+AppendTo (Concatenation(GLR.path, "symmetric_quandles_of_order_", String(n), ".txt")," ];");
+AppendTo (Concatenation(GLR.path, "symmetric_kei_of_order_", String(n), ".txt")," ];");
+Print(Concatenation("Symmetric racks of order ",String(n),": ",String(Length(isoClasses)),"\n"));
+Print(Concatenation("Symmetric quandles of order ",String(n),": ",String(quandles),"\n"));
+Print(Concatenation("Symmetric kei of order ",String(n),": ",String(kei),"\n"));
+end;

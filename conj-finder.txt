@@ -1,0 +1,91 @@
+## GAP script to iterate over groups of order n and subsets X closed under conjugation by H = <X>, with lazy evaluation of zeta^* assignments
+
+# Generator: yields one zeta^* assignment at a time
+ZetaGenerator := function(domainList, codomainList)
+    local len, indices, done, Next;
+    len := Length(domainList);
+    if len = 0 then
+        return rec(done := false, next := function() local v; v := []; return v; end);
+    fi;
+    indices := List([1..len], i -> 1);
+    done := false;
+    Next := function()
+        local current, i;
+        if done then return fail; fi;
+        current := List([1..len], i -> codomainList[indices[i]]);
+        # Advance indices
+        i := len;
+        while i >= 1 do
+            indices[i] := indices[i] + 1;
+            if indices[i] <= Length(codomainList) then
+                break;
+            else
+                indices[i] := 1;
+                i := i - 1;
+            fi;
+        od;
+        if i = 0 then done := true; fi;
+        return current;
+    end;
+    return rec(next := Next);
+end;
+
+# Main routine: find good involutions of Conj G for nonabelian groups G of order n
+symmConj := function(n)
+    local grpList, G, x, X, orbits, ZG, zetaGen, mapChoice, zetaValues, rhoValues, ok, j, mapping, orbitIdx, k, idx, localCount, globalCount;
+
+    PrintTo (Concatenation(GLR.path, "symm-conj-order-", String(n), ".txt"), "List of symmetric subquandles of Conj G for nonabelian groups G of order ", n, "\n \n");
+	globalCount := 0;
+	grpList := AllSmallGroups(n);
+    for G in grpList do
+		if IsAbelian(G) then continue; fi;
+		localCount := 0;
+        X := Elements(G);
+		# compute G(Inn G) and Z(G)
+		orbits := Orbits(G, X, OnPoints);
+		ZG := Elements(Centre(G));
+		mapping := List(X, x -> 0);
+		for orbitIdx in [1..Length(orbits)] do
+			for x in orbits[orbitIdx] do
+				idx := Position(X, x);
+				if idx <> fail then mapping[idx] := orbitIdx; fi;
+			od;
+		od;
+		# construct functions zeta^*: G/(Inn G) -> Z(G)
+		zetaGen := ZetaGenerator(orbits, ZG);
+		while true do
+			mapChoice := zetaGen.next();
+			if mapChoice = fail then break; fi;
+			zetaValues := [];
+			rhoValues := [];
+			for j in [1..Length(X)] do
+				orbitIdx := mapping[j];
+				zetaValues[j] := mapChoice[orbitIdx];
+				rhoValues[j] := zetaValues[j]^-1 * X[j]^-1;
+			od;
+			# test whether zeta meets the conditions for inducing a good involution
+			ok := true;
+			for j in [1..Length(X)] do
+				k := Position(X, rhoValues[j]);
+				if zetaValues[k] <> zetaValues[j] then
+					ok := false;
+					break;
+				fi;
+			od;
+			# if we found a good involution, then print what it is
+			if ok then
+				localCount := localCount + 1;
+				AppendTo (Concatenation(GLR.path, "symm-conj-order-", String(n), ".txt"),"G = ", StructureDescription(G), "\n",
+					"X = ", X, "\n", "rho: \n");
+				for j in [1..Length(X)] do
+					AppendTo(Concatenation(GLR.path, "symm-conj-order-", String(n), ".txt"),X[j], " -> ", rhoValues[j], "\n");
+				od;
+				AppendTo(Concatenation(GLR.path, "symm-conj-order-", String(n), ".txt"),"\n");
+			fi;
+		od;
+		AppendTo(Concatenation(GLR.path, "symm-conj-order-", String(n), ".txt"), "Rough upper bound on the number of good involutions of Conj ", StructureDescription(G), ": ", Size(ZG)^Size(orbits),"\n");
+		AppendTo(Concatenation(GLR.path, "symm-conj-order-", String(n), ".txt"),"Actual number of good involutions of Conj ", StructureDescription(G), ": ", localCount, "\n\n");
+		globalCount := globalCount + localCount;
+    od;
+	AppendTo(Concatenation(GLR.path, "symm-conj-order-", String(n), ".txt"),"Number of symmetric conjugation quandles of groups of order ", n, ": ", globalCount);
+end;
