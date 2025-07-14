@@ -1,3 +1,0 @@
-List of good involutions of nontrivial core quandles Core G for groups G of order 1
- 
-Number of good involutions of core quandles of order 1: 0
