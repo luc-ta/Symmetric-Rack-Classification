@@ -1,3 +1,0 @@
-List of symmetric subquandles of Conj G for nonabelian groups G of order 19
- 
-Number of symmetric conjugation quandles of groups of order 19: 0
