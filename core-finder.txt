@@ -37,22 +37,22 @@ end;
 
 # Main routine: find good involutions of Core G for groups G of order n such that Core G is nontrivial
 symmCore := function(n)
-    local grpList, G, x, X, orbits, ZG, A, alphaGen, mapChoice, alphaValues, rhoValues, ok, j, mapping, orbitIdx, k, idx, localCount, globalCount;
+    local grpList, G, x, X, id, orbits, ZG, A, alphaGen, mapChoice, alphaValues, rhoValues, ok, j, mapping, orbitIdx, k, idx, localCount, globalCount;
 
-    PrintTo (Concatenation(GLR.path, "symm-core-quandles-order-", String(n), ".txt"), "List of symmetric subquandles of Core G for nonabelian groups G of order ", n, "\n \n");
+    PrintTo (Concatenation(GLR.path, "symm-core-quandles-order-", String(n), ".txt"), "List of good involutions of nontrivial core quandles Core G for groups G of order ", n, "\n \n");
 	globalCount := 0;
 	grpList := AllSmallGroups(n);
     for G in grpList do
-		# if G is an elementary abelian 2-group, then Core G is trivial
-		if ForAll(G, g -> g^2 = 1) then continue; fi;
-		localCount := 0;
         X := Elements(G);
+		id := X[1];
+		# if G is an elementary abelian 2-group, then Core G is trivial
+		if ForAll(X, g -> g^2 = id) then continue; fi;
+		localCount := 0;
 		# compute G/(Inn Core G) and A
-		orbits := Orbits(G, X, coreAction);
+		orbits := OrbitsDomain(G, X, coreAction);
 		# central elements of G
 		ZG := Elements(Centre(G));
-		A := Filtered(ZG, g -> g^2 = 1);
-		Print("Rough upper bound on the number of good involutions of Core G: ", Size(A)^Size(orbits),"\n");
+		A := Filtered(ZG, g -> g^2 = id);
 		mapping := List(X, x -> 0);
 		for orbitIdx in [1..Length(orbits)] do
 			for x in orbits[orbitIdx] do
@@ -92,7 +92,8 @@ symmCore := function(n)
 				AppendTo(Concatenation(GLR.path, "symm-core-quandles-order-", String(n), ".txt"),"\n");
 			fi;
         od;
-		AppendTo(Concatenation(GLR.path, "symm-core-quandles-order-", String(n), ".txt"),"Number of good involutions of Core ", StructureDescription(G), ": ", localCount, "\n\n");
+		AppendTo(Concatenation(GLR.path, "symm-core-quandles-order-", String(n), ".txt"),"Rough upper bound on the number of good involutions of Core G: ", Size(A)^Size(orbits),"\n");
+		AppendTo(Concatenation(GLR.path, "symm-core-quandles-order-", String(n), ".txt"),"Actual number of good involutions of Core ", StructureDescription(G), ": ", localCount, "\n\n");
 		globalCount := globalCount + localCount;
     od;
 	AppendTo(Concatenation(GLR.path, "symm-core-quandles-order-", String(n), ".txt"),"Number of good involutions of core quandles of order ", n, ": ", globalCount);

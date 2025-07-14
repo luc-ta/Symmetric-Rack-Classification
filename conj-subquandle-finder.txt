@@ -47,12 +47,11 @@ symmConjSubs := function(n)
             gensH := GeneratorsOfGroup(H);
             if ForAll(X, x -> ForAll(gensH, h -> x^h in X)) then
 				# compute X/H and Z(H)
-                orbits := Orbits(H, X, OnPoints);
+                orbits := OrbitsDomain(H, X, OnPoints);
                 ZH := Elements(Centre(H));
                 if Length(orbits) = 0 or Length(ZH) = 0 then
                     continue;
                 fi;
-				AppendTo(Concatenation(GLR.path, "symm-conj-subqs-order-", String(n), ".txt"), "Rough upper bound on the number of good involutions of Conj", StructureDescription(G), ": ", Size(ZG)^Size(orbits),"\n\n");
                 mapping := List(X, x -> 0);
                 for orbitIdx in [1..Length(orbits)] do
                     for x in orbits[orbitIdx] do
@@ -102,8 +101,9 @@ symmConjSubs := function(n)
                 od;
             fi;
         od;
-		AppendTo(Concatenation(GLR.path, "symm-conj-subqs-order-", String(n), ".txt"),"Number of inversion-closed symmetric subquandles of Conj ", StructureDescription(G), ": ", localCount, "\n\n");
+		AppendTo(Concatenation(GLR.path, "symm-conj-subqs-order-", String(n), ".txt"), "Rough upper bound on the number of good involutions of Conj X: ", Size(ZH)^Size(orbits),"\n");
+		AppendTo(Concatenation(GLR.path, "symm-conj-subqs-order-", String(n), ".txt"),"Actual number of symmetric subquandles of Conj X: ", localCount, "\n\n");
 		globalCount := globalCount + localCount;
     od;
-	AppendTo(Concatenation(GLR.path, "symm-conj-subqs-order-", String(n), ".txt"),"Number of inversion-closed symmetric subquandles of groups of order ", n, ": ", globalCount);
+	AppendTo(Concatenation(GLR.path, "symm-conj-subqs-order-", String(n), ".txt"),"Number of symmetric subquandles of groups of order ", n, ": ", globalCount);
 end;

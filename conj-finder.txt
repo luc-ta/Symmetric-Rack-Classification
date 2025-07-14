@@ -42,7 +42,7 @@ symmConj := function(n)
 		localCount := 0;
         X := Elements(G);
 		# compute G(Inn G) and Z(G)
-		orbits := Orbits(G, X, OnPoints);
+		orbits := OrbitsDomain(G, X, OnPoints);
 		ZG := Elements(Centre(G));
 		mapping := List(X, x -> 0);
 		for orbitIdx in [1..Length(orbits)] do
