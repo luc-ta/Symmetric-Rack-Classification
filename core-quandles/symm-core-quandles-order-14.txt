@@ -1,0 +1,63 @@
+List of good involutions of nontrivial core quandles Core G for groups G of order 14
+ 
+G = D14
+X = [ <identity> of ..., f1, f2, f1*f2, f2^2, f1*f2^2, f2^3, f1*f2^3, f2^4, f1*f2^4, f2^5, f1*f2^5, f2^6, f1*f2^6 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f1*f2 -> f1*f2
+f2^2 -> f2^2
+f1*f2^2 -> f1*f2^2
+f2^3 -> f2^3
+f1*f2^3 -> f1*f2^3
+f2^4 -> f2^4
+f1*f2^4 -> f1*f2^4
+f2^5 -> f2^5
+f1*f2^5 -> f1*f2^5
+f2^6 -> f2^6
+f1*f2^6 -> f1*f2^6
+
+Rough upper bound on the number of good involutions of Core G: 1
+Actual number of good involutions of Core D14: 1
+
+G = C14
+X = [ <identity> of ..., f1, f2, f1*f2, f2^2, f1*f2^2, f2^3, f1*f2^3, f2^4, f1*f2^4, f2^5, f1*f2^5, f2^6, f1*f2^6 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f1*f2 -> f1*f2
+f2^2 -> f2^2
+f1*f2^2 -> f1*f2^2
+f2^3 -> f2^3
+f1*f2^3 -> f1*f2^3
+f2^4 -> f2^4
+f1*f2^4 -> f1*f2^4
+f2^5 -> f2^5
+f1*f2^5 -> f1*f2^5
+f2^6 -> f2^6
+f1*f2^6 -> f1*f2^6
+
+G = C14
+X = [ <identity> of ..., f1, f2, f1*f2, f2^2, f1*f2^2, f2^3, f1*f2^3, f2^4, f1*f2^4, f2^5, f1*f2^5, f2^6, f1*f2^6 ]
+rho: 
+<identity> of ... -> f1
+f1 -> <identity> of ...
+f2 -> f1*f2
+f1*f2 -> f2
+f2^2 -> f1*f2^2
+f1*f2^2 -> f2^2
+f2^3 -> f1*f2^3
+f1*f2^3 -> f2^3
+f2^4 -> f1*f2^4
+f1*f2^4 -> f2^4
+f2^5 -> f1*f2^5
+f1*f2^5 -> f2^5
+f2^6 -> f1*f2^6
+f1*f2^6 -> f2^6
+
+Rough upper bound on the number of good involutions of Core G: 4
+Actual number of good involutions of Core C14: 2
+
+Number of good involutions of core quandles of order 14: 3

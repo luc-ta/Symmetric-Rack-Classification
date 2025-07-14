@@ -1,0 +1,879 @@
+List of good involutions of nontrivial core quandles Core G for groups G of order 8
+ 
+G = C8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2*f3
+
+G = C8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f3
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2
+
+G = C8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1
+f2 -> f2*f3
+f3 -> <identity> of ...
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2*f3
+
+G = C8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1*f3
+f2 -> f2*f3
+f3 -> <identity> of ...
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2
+
+Rough upper bound on the number of good involutions of Core G: 4
+Actual number of good involutions of Core C8: 4
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2*f3
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2*f3
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2*f3
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2*f3
+f3 -> f3
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1*f3
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f3
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2
+f2 -> f2*f3
+f3 -> f3
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2*f3 -> f2
+f1*f2*f3 -> f1*f3
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f3
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f1
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2*f3
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f3
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f3
+f2 -> f2*f3
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f1
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2*f3
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f3
+f2 -> f2*f3
+f3 -> f3
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2*f3
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f3
+f1*f3 -> f1*f2
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2*f3
+f2 -> f2*f3
+f3 -> f3
+f1*f2 -> f1*f3
+f1*f3 -> f1*f2
+f2*f3 -> f2
+f1*f2*f3 -> f1
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1
+f2 -> <identity> of ...
+f3 -> f2*f3
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f3
+f1*f2*f3 -> f1*f2*f3
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1
+f2 -> <identity> of ...
+f3 -> f2*f3
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1*f3
+f2*f3 -> f3
+f1*f2*f3 -> f1*f2
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1*f2
+f2 -> <identity> of ...
+f3 -> f2*f3
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2*f3 -> f3
+f1*f2*f3 -> f1*f3
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1*f3
+f2 -> <identity> of ...
+f3 -> f2*f3
+f1*f2 -> f1*f2
+f1*f3 -> f1
+f2*f3 -> f3
+f1*f2*f3 -> f1*f2*f3
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1*f3
+f2 -> <identity> of ...
+f3 -> f2*f3
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1
+f2*f3 -> f3
+f1*f2*f3 -> f1*f2
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1*f2*f3
+f2 -> <identity> of ...
+f3 -> f2*f3
+f1*f2 -> f1*f3
+f1*f3 -> f1*f2
+f2*f3 -> f3
+f1*f2*f3 -> f1
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1
+f2 -> f2
+f3 -> <identity> of ...
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2*f3
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1
+f2 -> f2
+f3 -> <identity> of ...
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1
+f2 -> f2*f3
+f3 -> <identity> of ...
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2*f3
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1
+f2 -> f2*f3
+f3 -> <identity> of ...
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1*f3
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1*f2
+f2 -> f2
+f3 -> <identity> of ...
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f3
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1*f2
+f2 -> f2*f3
+f3 -> <identity> of ...
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2*f3 -> f2
+f1*f2*f3 -> f1*f3
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1*f3
+f2 -> f2
+f3 -> <identity> of ...
+f1*f2 -> f1*f2
+f1*f3 -> f1
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2*f3
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1*f3
+f2 -> f2
+f3 -> <identity> of ...
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1*f3
+f2 -> f2*f3
+f3 -> <identity> of ...
+f1*f2 -> f1*f2
+f1*f3 -> f1
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2*f3
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1*f3
+f2 -> f2*f3
+f3 -> <identity> of ...
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1*f2*f3
+f2 -> f2
+f3 -> <identity> of ...
+f1*f2 -> f1*f3
+f1*f3 -> f1*f2
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1*f2*f3
+f2 -> f2*f3
+f3 -> <identity> of ...
+f1*f2 -> f1*f3
+f1*f3 -> f1*f2
+f2*f3 -> f2
+f1*f2*f3 -> f1
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f2*f3
+f1 -> f1
+f2 -> f3
+f3 -> f2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> <identity> of ...
+f1*f2*f3 -> f1*f2*f3
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f2*f3
+f1 -> f1
+f2 -> f3
+f3 -> f2
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1*f3
+f2*f3 -> <identity> of ...
+f1*f2*f3 -> f1*f2
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f2*f3
+f1 -> f1*f2
+f2 -> f3
+f3 -> f2
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2*f3 -> <identity> of ...
+f1*f2*f3 -> f1*f3
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f2*f3
+f1 -> f1*f3
+f2 -> f3
+f3 -> f2
+f1*f2 -> f1*f2
+f1*f3 -> f1
+f2*f3 -> <identity> of ...
+f1*f2*f3 -> f1*f2*f3
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f2*f3
+f1 -> f1*f3
+f2 -> f3
+f3 -> f2
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1
+f2*f3 -> <identity> of ...
+f1*f2*f3 -> f1*f2
+
+G = C4 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f2*f3
+f1 -> f1*f2*f3
+f2 -> f3
+f3 -> f2
+f1*f2 -> f1*f3
+f1*f3 -> f1*f2
+f2*f3 -> <identity> of ...
+f1*f2*f3 -> f1
+
+Rough upper bound on the number of good involutions of Core G: 256
+Actual number of good involutions of Core C4 x C2: 36
+
+G = D8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2*f3
+
+G = D8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2
+
+G = D8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2*f3
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2*f3
+
+G = D8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2*f3
+f3 -> f3
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1*f3
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2
+
+G = D8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f3
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f1
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2*f3
+
+G = D8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f3
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2
+
+G = D8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f3
+f2 -> f2*f3
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f1
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2*f3
+
+G = D8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f3
+f2 -> f2*f3
+f3 -> f3
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2
+
+G = D8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1
+f2 -> f2
+f3 -> <identity> of ...
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2*f3
+
+G = D8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1
+f2 -> f2
+f3 -> <identity> of ...
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2
+
+G = D8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1
+f2 -> f2*f3
+f3 -> <identity> of ...
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2*f3
+
+G = D8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1
+f2 -> f2*f3
+f3 -> <identity> of ...
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1*f3
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2
+
+G = D8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1*f3
+f2 -> f2
+f3 -> <identity> of ...
+f1*f2 -> f1*f2
+f1*f3 -> f1
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2*f3
+
+G = D8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1*f3
+f2 -> f2
+f3 -> <identity> of ...
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2
+
+G = D8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1*f3
+f2 -> f2*f3
+f3 -> <identity> of ...
+f1*f2 -> f1*f2
+f1*f3 -> f1
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2*f3
+
+G = D8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1*f3
+f2 -> f2*f3
+f3 -> <identity> of ...
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2
+
+Rough upper bound on the number of good involutions of Core G: 32
+Actual number of good involutions of Core D8: 16
+
+G = Q8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2*f3
+
+G = Q8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2
+
+G = Q8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2*f3
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2*f3
+
+G = Q8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2*f3
+f3 -> f3
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1*f3
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2
+
+G = Q8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f3
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f1
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2*f3
+
+G = Q8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f3
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2
+
+G = Q8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f3
+f2 -> f2*f3
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f1
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2*f3
+
+G = Q8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f3
+f2 -> f2*f3
+f3 -> f3
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2
+
+G = Q8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1
+f2 -> f2
+f3 -> <identity> of ...
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2*f3
+
+G = Q8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1
+f2 -> f2
+f3 -> <identity> of ...
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2
+
+G = Q8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1
+f2 -> f2*f3
+f3 -> <identity> of ...
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2*f3
+
+G = Q8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1
+f2 -> f2*f3
+f3 -> <identity> of ...
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1*f3
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2
+
+G = Q8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1*f3
+f2 -> f2
+f3 -> <identity> of ...
+f1*f2 -> f1*f2
+f1*f3 -> f1
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2*f3
+
+G = Q8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1*f3
+f2 -> f2
+f3 -> <identity> of ...
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1
+f2*f3 -> f2*f3
+f1*f2*f3 -> f1*f2
+
+G = Q8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1*f3
+f2 -> f2*f3
+f3 -> <identity> of ...
+f1*f2 -> f1*f2
+f1*f3 -> f1
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2*f3
+
+G = Q8
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f1*f2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1*f3
+f2 -> f2*f3
+f3 -> <identity> of ...
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1
+f2*f3 -> f2
+f1*f2*f3 -> f1*f2
+
+Rough upper bound on the number of good involutions of Core G: 16
+Actual number of good involutions of Core Q8: 16
+
+Number of good involutions of core quandles of order 8: 72

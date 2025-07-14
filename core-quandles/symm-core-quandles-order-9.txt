@@ -1,0 +1,35 @@
+List of good involutions of nontrivial core quandles Core G for groups G of order 9
+ 
+G = C9
+X = [ <identity> of ..., f1, f2, f1^2, f1*f2, f2^2, f1^2*f2, f1*f2^2, f1^2*f2^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f1^2 -> f1^2
+f1*f2 -> f1*f2
+f2^2 -> f2^2
+f1^2*f2 -> f1^2*f2
+f1*f2^2 -> f1*f2^2
+f1^2*f2^2 -> f1^2*f2^2
+
+Rough upper bound on the number of good involutions of Core G: 1
+Actual number of good involutions of Core C9: 1
+
+G = C3 x C3
+X = [ <identity> of ..., f1, f2, f1^2, f1*f2, f2^2, f1^2*f2, f1*f2^2, f1^2*f2^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f1^2 -> f1^2
+f1*f2 -> f1*f2
+f2^2 -> f2^2
+f1^2*f2 -> f1^2*f2
+f1*f2^2 -> f1*f2^2
+f1^2*f2^2 -> f1^2*f2^2
+
+Rough upper bound on the number of good involutions of Core G: 1
+Actual number of good involutions of Core C3 x C3: 1
+
+Number of good involutions of core quandles of order 9: 2

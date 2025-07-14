@@ -1,0 +1,38 @@
+List of good involutions of nontrivial core quandles Core G for groups G of order 4
+ 
+G = C4
+X = [ <identity> of ..., f1, f2, f1*f2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f1*f2 -> f1*f2
+
+G = C4
+X = [ <identity> of ..., f1, f2, f1*f2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2
+f2 -> f2
+f1*f2 -> f1
+
+G = C4
+X = [ <identity> of ..., f1, f2, f1*f2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1
+f2 -> <identity> of ...
+f1*f2 -> f1*f2
+
+G = C4
+X = [ <identity> of ..., f1, f2, f1*f2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1*f2
+f2 -> <identity> of ...
+f1*f2 -> f1
+
+Rough upper bound on the number of good involutions of Core G: 4
+Actual number of good involutions of Core C4: 4
+
+Number of good involutions of core quandles of order 4: 4

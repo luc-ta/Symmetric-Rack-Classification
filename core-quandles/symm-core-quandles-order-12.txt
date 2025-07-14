@@ -1,0 +1,514 @@
+List of good involutions of nontrivial core quandles Core G for groups G of order 12
+ 
+G = C3 : C4
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f3^2 -> f3^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2*f3^2 -> f2*f3^2
+f1*f2*f3^2 -> f1*f2*f3^2
+
+G = C3 : C4
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2*f3
+f2*f3 -> f2*f3
+f3^2 -> f3^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2*f3^2 -> f2*f3^2
+f1*f2*f3^2 -> f1*f3^2
+
+G = C3 : C4
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f3^2 -> f3^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2*f3^2 -> f2*f3^2
+f1*f2*f3^2 -> f1*f2*f3^2
+
+G = C3 : C4
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2*f3 -> f2*f3
+f3^2 -> f3^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2*f3^2 -> f2*f3^2
+f1*f2*f3^2 -> f1*f3^2
+
+G = C3 : C4
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1
+f2 -> <identity> of ...
+f3 -> f2*f3
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f3
+f3^2 -> f2*f3^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2*f3^2 -> f3^2
+f1*f2*f3^2 -> f1*f2*f3^2
+
+G = C3 : C4
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1
+f2 -> <identity> of ...
+f3 -> f2*f3
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2*f3
+f2*f3 -> f3
+f3^2 -> f2*f3^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2*f3^2 -> f3^2
+f1*f2*f3^2 -> f1*f3^2
+
+G = C3 : C4
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1*f2
+f2 -> <identity> of ...
+f3 -> f2*f3
+f1*f2 -> f1
+f1*f3 -> f1*f3
+f2*f3 -> f3
+f3^2 -> f2*f3^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2*f3^2 -> f3^2
+f1*f2*f3^2 -> f1*f2*f3^2
+
+G = C3 : C4
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1*f2
+f2 -> <identity> of ...
+f3 -> f2*f3
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2*f3 -> f3
+f3^2 -> f2*f3^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2*f3^2 -> f3^2
+f1*f2*f3^2 -> f1*f3^2
+
+Rough upper bound on the number of good involutions of Core G: 8
+Actual number of good involutions of Core C3 : C4: 8
+
+G = C12
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f1*f2^2, f1*f2*f3, f2^2*f3, f1*f2^2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> f2^2
+f2*f3 -> f2*f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f2^2*f3 -> f2^2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+
+G = C12
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f1*f2^2, f1*f2*f3, f2^2*f3, f1*f2^2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f3
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1
+f2^2 -> f2^2
+f2*f3 -> f2*f3
+f1*f2^2 -> f1*f2^2*f3
+f1*f2*f3 -> f1*f2
+f2^2*f3 -> f2^2*f3
+f1*f2^2*f3 -> f1*f2^2
+
+G = C12
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f1*f2^2, f1*f2*f3, f2^2*f3, f1*f2^2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1
+f2 -> f2*f3
+f3 -> <identity> of ...
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> f2^2*f3
+f2*f3 -> f2
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f2^2*f3 -> f2^2
+f1*f2^2*f3 -> f1*f2^2*f3
+
+G = C12
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f1*f2^2, f1*f2*f3, f2^2*f3, f1*f2^2*f3 ]
+rho: 
+<identity> of ... -> f3
+f1 -> f1*f3
+f2 -> f2*f3
+f3 -> <identity> of ...
+f1*f2 -> f1*f2*f3
+f1*f3 -> f1
+f2^2 -> f2^2*f3
+f2*f3 -> f2
+f1*f2^2 -> f1*f2^2*f3
+f1*f2*f3 -> f1*f2
+f2^2*f3 -> f2^2
+f1*f2^2*f3 -> f1*f2^2
+
+Rough upper bound on the number of good involutions of Core G: 4
+Actual number of good involutions of Core C12: 4
+
+G = A4
+X = [ <identity> of ..., f1, f2, f3, f1^2, f1*f2, f1*f3, f2*f3, f1^2*f2, f1^2*f3, f1*f2*f3, f1^2*f2*f3 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f3
+f1^2 -> f1^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f1^2*f2 -> f1^2*f2
+f1^2*f3 -> f1^2*f3
+f1*f2*f3 -> f1*f2*f3
+f1^2*f2*f3 -> f1^2*f2*f3
+
+Rough upper bound on the number of good involutions of Core G: 1
+Actual number of good involutions of Core A4: 1
+
+G = D12
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f3^2 -> f3^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2*f3^2 -> f2*f3^2
+f1*f2*f3^2 -> f1*f2*f3^2
+
+G = D12
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2*f3
+f2*f3 -> f2*f3
+f3^2 -> f3^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2*f3^2 -> f2*f3^2
+f1*f2*f3^2 -> f1*f3^2
+
+G = D12
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f3^2 -> f3^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2*f3^2 -> f2*f3^2
+f1*f2*f3^2 -> f1*f2*f3^2
+
+G = D12
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2*f3 -> f2*f3
+f3^2 -> f3^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2*f3^2 -> f2*f3^2
+f1*f2*f3^2 -> f1*f3^2
+
+G = D12
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1
+f2 -> <identity> of ...
+f3 -> f2*f3
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f3
+f3^2 -> f2*f3^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2*f3^2 -> f3^2
+f1*f2*f3^2 -> f1*f2*f3^2
+
+G = D12
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1
+f2 -> <identity> of ...
+f3 -> f2*f3
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2*f3
+f2*f3 -> f3
+f3^2 -> f2*f3^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2*f3^2 -> f3^2
+f1*f2*f3^2 -> f1*f3^2
+
+G = D12
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1*f2
+f2 -> <identity> of ...
+f3 -> f2*f3
+f1*f2 -> f1
+f1*f3 -> f1*f3
+f2*f3 -> f3
+f3^2 -> f2*f3^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2*f3^2 -> f3^2
+f1*f2*f3^2 -> f1*f2*f3^2
+
+G = D12
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1*f2
+f2 -> <identity> of ...
+f3 -> f2*f3
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2*f3 -> f3
+f3^2 -> f2*f3^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2*f3^2 -> f3^2
+f1*f2*f3^2 -> f1*f3^2
+
+Rough upper bound on the number of good involutions of Core G: 64
+Actual number of good involutions of Core D12: 8
+
+G = C6 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f3^2 -> f3^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2*f3^2 -> f2*f3^2
+f1*f2*f3^2 -> f1*f2*f3^2
+
+G = C6 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f1*f2
+f3 -> f3
+f1*f2 -> f2
+f1*f3 -> f1*f3
+f2*f3 -> f1*f2*f3
+f3^2 -> f3^2
+f1*f2*f3 -> f2*f3
+f1*f3^2 -> f1*f3^2
+f2*f3^2 -> f1*f2*f3^2
+f1*f2*f3^2 -> f2*f3^2
+
+G = C6 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2
+f2 -> f2
+f3 -> f3
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2*f3 -> f2*f3
+f3^2 -> f3^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2*f3^2 -> f2*f3^2
+f1*f2*f3^2 -> f1*f3^2
+
+G = C6 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f2
+f2 -> f1
+f3 -> f3
+f1*f2 -> f1*f2
+f1*f3 -> f2*f3
+f2*f3 -> f1*f3
+f3^2 -> f3^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f2*f3^2
+f2*f3^2 -> f1*f3^2
+f1*f2*f3^2 -> f1*f2*f3^2
+
+G = C6 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> f1
+f1 -> <identity> of ...
+f2 -> f2
+f3 -> f1*f3
+f1*f2 -> f1*f2
+f1*f3 -> f3
+f2*f3 -> f2*f3
+f3^2 -> f1*f3^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f3^2
+f2*f3^2 -> f2*f3^2
+f1*f2*f3^2 -> f1*f2*f3^2
+
+G = C6 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> f1
+f1 -> <identity> of ...
+f2 -> f1*f2
+f3 -> f1*f3
+f1*f2 -> f2
+f1*f3 -> f3
+f2*f3 -> f1*f2*f3
+f3^2 -> f1*f3^2
+f1*f2*f3 -> f2*f3
+f1*f3^2 -> f3^2
+f2*f3^2 -> f1*f2*f3^2
+f1*f2*f3^2 -> f2*f3^2
+
+G = C6 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1
+f2 -> <identity> of ...
+f3 -> f2*f3
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2*f3 -> f3
+f3^2 -> f2*f3^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2*f3^2 -> f3^2
+f1*f2*f3^2 -> f1*f2*f3^2
+
+G = C6 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1*f2
+f2 -> <identity> of ...
+f3 -> f2*f3
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2*f3 -> f3
+f3^2 -> f2*f3^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2*f3^2 -> f3^2
+f1*f2*f3^2 -> f1*f3^2
+
+G = C6 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> f1*f2
+f1 -> f1
+f2 -> f2
+f3 -> f1*f2*f3
+f1*f2 -> <identity> of ...
+f1*f3 -> f1*f3
+f2*f3 -> f2*f3
+f3^2 -> f1*f2*f3^2
+f1*f2*f3 -> f3
+f1*f3^2 -> f1*f3^2
+f2*f3^2 -> f2*f3^2
+f1*f2*f3^2 -> f3^2
+
+G = C6 x C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2*f3, f3^2, f1*f2*f3, f1*f3^2, f2*f3^2, f1*f2*f3^2 ]
+rho: 
+<identity> of ... -> f1*f2
+f1 -> f2
+f2 -> f1
+f3 -> f1*f2*f3
+f1*f2 -> <identity> of ...
+f1*f3 -> f2*f3
+f2*f3 -> f1*f3
+f3^2 -> f1*f2*f3^2
+f1*f2*f3 -> f3
+f1*f3^2 -> f2*f3^2
+f2*f3^2 -> f1*f3^2
+f1*f2*f3^2 -> f3^2
+
+Rough upper bound on the number of good involutions of Core G: 256
+Actual number of good involutions of Core C6 x C2: 10
+
+Number of good involutions of core quandles of order 12: 31

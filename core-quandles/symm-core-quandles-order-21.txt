@@ -1,0 +1,61 @@
+List of good involutions of nontrivial core quandles Core G for groups G of order 21
+ 
+G = C7 : C3
+X = [ <identity> of ..., f1, f2, f1^2, f1*f2, f2^2, f1^2*f2, f1*f2^2, f2^3, f1^2*f2^2, f1*f2^3, f2^4, f1^2*f2^3, 
+  f1*f2^4, f2^5, f1^2*f2^4, f1*f2^5, f2^6, f1^2*f2^5, f1*f2^6, f1^2*f2^6 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f1^2 -> f1^2
+f1*f2 -> f1*f2
+f2^2 -> f2^2
+f1^2*f2 -> f1^2*f2
+f1*f2^2 -> f1*f2^2
+f2^3 -> f2^3
+f1^2*f2^2 -> f1^2*f2^2
+f1*f2^3 -> f1*f2^3
+f2^4 -> f2^4
+f1^2*f2^3 -> f1^2*f2^3
+f1*f2^4 -> f1*f2^4
+f2^5 -> f2^5
+f1^2*f2^4 -> f1^2*f2^4
+f1*f2^5 -> f1*f2^5
+f2^6 -> f2^6
+f1^2*f2^5 -> f1^2*f2^5
+f1*f2^6 -> f1*f2^6
+f1^2*f2^6 -> f1^2*f2^6
+
+Rough upper bound on the number of good involutions of Core G: 1
+Actual number of good involutions of Core C7 : C3: 1
+
+G = C21
+X = [ <identity> of ..., f1, f2, f1^2, f1*f2, f2^2, f1^2*f2, f1*f2^2, f2^3, f1^2*f2^2, f1*f2^3, f2^4, f1^2*f2^3, 
+  f1*f2^4, f2^5, f1^2*f2^4, f1*f2^5, f2^6, f1^2*f2^5, f1*f2^6, f1^2*f2^6 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f1^2 -> f1^2
+f1*f2 -> f1*f2
+f2^2 -> f2^2
+f1^2*f2 -> f1^2*f2
+f1*f2^2 -> f1*f2^2
+f2^3 -> f2^3
+f1^2*f2^2 -> f1^2*f2^2
+f1*f2^3 -> f1*f2^3
+f2^4 -> f2^4
+f1^2*f2^3 -> f1^2*f2^3
+f1*f2^4 -> f1*f2^4
+f2^5 -> f2^5
+f1^2*f2^4 -> f1^2*f2^4
+f1*f2^5 -> f1*f2^5
+f2^6 -> f2^6
+f1^2*f2^5 -> f1^2*f2^5
+f1*f2^6 -> f1*f2^6
+f1^2*f2^6 -> f1^2*f2^6
+
+Rough upper bound on the number of good involutions of Core G: 1
+Actual number of good involutions of Core C21: 1
+
+Number of good involutions of core quandles of order 21: 2

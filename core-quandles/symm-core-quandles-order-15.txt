@@ -1,0 +1,26 @@
+List of good involutions of nontrivial core quandles Core G for groups G of order 15
+ 
+G = C15
+X = [ <identity> of ..., f1, f2, f1^2, f1*f2, f2^2, f1^2*f2, f1*f2^2, f2^3, f1^2*f2^2, f1*f2^3, f2^4, f1^2*f2^3, 
+  f1*f2^4, f1^2*f2^4 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f1^2 -> f1^2
+f1*f2 -> f1*f2
+f2^2 -> f2^2
+f1^2*f2 -> f1^2*f2
+f1*f2^2 -> f1*f2^2
+f2^3 -> f2^3
+f1^2*f2^2 -> f1^2*f2^2
+f1*f2^3 -> f1*f2^3
+f2^4 -> f2^4
+f1^2*f2^3 -> f1^2*f2^3
+f1*f2^4 -> f1*f2^4
+f1^2*f2^4 -> f1^2*f2^4
+
+Rough upper bound on the number of good involutions of Core G: 1
+Actual number of good involutions of Core C15: 1
+
+Number of good involutions of core quandles of order 15: 1
