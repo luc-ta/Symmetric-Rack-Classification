@@ -1,0 +1,32 @@
+List of symmetric subquandles of Conj G for nonabelian groups G of order 21
+ 
+G = C7 : C3
+X = [ <identity> of ..., f1, f2, f1^2, f1*f2, f2^2, f1^2*f2, f1*f2^2, f2^3, f1^2*f2^2, f1*f2^3, f2^4, f1^2*f2^3, 
+  f1*f2^4, f2^5, f1^2*f2^4, f1*f2^5, f2^6, f1^2*f2^5, f1*f2^6, f1^2*f2^6 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1^2
+f2 -> f2^6
+f1^2 -> f1
+f1*f2 -> f1^2*f2^3
+f2^2 -> f2^5
+f1^2*f2 -> f1*f2^5
+f1*f2^2 -> f1^2*f2^6
+f2^3 -> f2^4
+f1^2*f2^2 -> f1*f2^3
+f1*f2^3 -> f1^2*f2^2
+f2^4 -> f2^3
+f1^2*f2^3 -> f1*f2
+f1*f2^4 -> f1^2*f2^5
+f2^5 -> f2^2
+f1^2*f2^4 -> f1*f2^6
+f1*f2^5 -> f1^2*f2
+f2^6 -> f2
+f1^2*f2^5 -> f1*f2^4
+f1*f2^6 -> f1^2*f2^4
+f1^2*f2^6 -> f1*f2^2
+
+Rough upper bound on the number of good involutions of Conj C7 : C3: 1
+Actual number of good involutions of Conj C7 : C3: 1
+
+Number of symmetric conjugation quandles of groups of order 21: 1

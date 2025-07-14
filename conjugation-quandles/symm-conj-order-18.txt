@@ -1,0 +1,1530 @@
+List of symmetric subquandles of Conj G for nonabelian groups G of order 18
+ 
+G = D18
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2^2*f3^2
+f3 -> f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> f2*f3^2
+f2*f3 -> f2^2*f3
+f3^2 -> f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2*f3
+f2*f3^2 -> f2^2
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+Rough upper bound on the number of good involutions of Conj D18: 1
+Actual number of good involutions of Conj D18: 1
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2^2
+f3 -> f3^2
+f1*f2 -> f1*f2^2
+f1*f3 -> f1*f3
+f2^2 -> f2
+f2*f3 -> f2^2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2
+f1*f2*f3 -> f1*f2^2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2*f3^2
+f2*f3^2 -> f2^2*f3
+f1*f2^2*f3 -> f1*f2*f3
+f1*f2*f3^2 -> f1*f2^2*f3^2
+f2^2*f3^2 -> f2*f3
+f1*f2^2*f3^2 -> f1*f2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2^2
+f3 -> f3^2
+f1*f2 -> f1*f2^2
+f1*f3 -> f1*f3
+f2^2 -> f2
+f2*f3 -> f2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2
+f1*f2*f3 -> f1*f2^2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2*f3
+f1*f2*f3^2 -> f1*f2^2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2^2
+f3 -> f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> f2
+f2*f3 -> f2^2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2*f3^2
+f2*f3^2 -> f2^2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2^2
+f3 -> f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> f2
+f2*f3 -> f2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2^2
+f3 -> f2^2*f3^2
+f1*f2 -> f1*f2^2
+f1*f3 -> f1*f3
+f2^2 -> f2
+f2*f3 -> f2*f3^2
+f3^2 -> f2^2*f3
+f1*f2^2 -> f1*f2
+f1*f2*f3 -> f1*f2^2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2*f3
+f1*f2*f3^2 -> f1*f2^2*f3^2
+f2^2*f3^2 -> f3
+f1*f2^2*f3^2 -> f1*f2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2^2
+f3 -> f2^2*f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> f2
+f2*f3 -> f2*f3^2
+f3^2 -> f2^2*f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2^2
+f3 -> f2*f3^2
+f1*f2 -> f1*f2^2
+f1*f3 -> f1*f3
+f2^2 -> f2
+f2*f3 -> f3^2
+f3^2 -> f2*f3
+f1*f2^2 -> f1*f2
+f1*f2*f3 -> f1*f2^2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f3
+f1*f2^2*f3 -> f1*f2*f3
+f1*f2*f3^2 -> f1*f2^2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2^2
+f3 -> f2*f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> f2
+f2*f3 -> f3^2
+f3^2 -> f2*f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f3^2
+f1*f2 -> f1*f2^2
+f1*f3 -> f1*f3
+f2^2 -> f2^2
+f2*f3 -> f2^2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2
+f1*f2*f3 -> f1*f2^2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2*f3^2
+f2*f3^2 -> f2^2*f3
+f1*f2^2*f3 -> f1*f2*f3
+f1*f2*f3^2 -> f1*f2^2*f3^2
+f2^2*f3^2 -> f2*f3
+f1*f2^2*f3^2 -> f1*f2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f3^2
+f1*f2 -> f1*f2^2
+f1*f3 -> f1*f3
+f2^2 -> f2^2
+f2*f3 -> f2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2
+f1*f2*f3 -> f1*f2^2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2*f3
+f1*f2*f3^2 -> f1*f2^2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> f2^2
+f2*f3 -> f2^2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2*f3^2
+f2*f3^2 -> f2^2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> f2^2
+f2*f3 -> f2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f2^2*f3^2
+f1*f2 -> f1*f2^2
+f1*f3 -> f1*f3
+f2^2 -> f2^2
+f2*f3 -> f2*f3^2
+f3^2 -> f2^2*f3
+f1*f2^2 -> f1*f2
+f1*f2*f3 -> f1*f2^2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2*f3
+f1*f2*f3^2 -> f1*f2^2*f3^2
+f2^2*f3^2 -> f3
+f1*f2^2*f3^2 -> f1*f2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f2^2*f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> f2^2
+f2*f3 -> f2*f3^2
+f3^2 -> f2^2*f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f2*f3^2
+f1*f2 -> f1*f2^2
+f1*f3 -> f1*f3
+f2^2 -> f2^2
+f2*f3 -> f3^2
+f3^2 -> f2*f3
+f1*f2^2 -> f1*f2
+f1*f2*f3 -> f1*f2^2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f3
+f1*f2^2*f3 -> f1*f2*f3
+f1*f2*f3^2 -> f1*f2^2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2
+f3 -> f2*f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> f2^2
+f2*f3 -> f3^2
+f3^2 -> f2*f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2^2
+f2 -> f2^2
+f3 -> f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2^2*f3
+f2^2 -> f2
+f2*f3 -> f2^2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f2^2*f3^2
+f2^2*f3 -> f2*f3^2
+f2*f3^2 -> f2^2*f3
+f1*f2^2*f3 -> f1*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2*f3
+f1*f2^2*f3^2 -> f1*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2^2
+f2 -> f2^2
+f3 -> f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2^2*f3
+f2^2 -> f2
+f2*f3 -> f2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f2^2*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2^2
+f2 -> f2^2
+f3 -> f2^2*f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2^2*f3
+f2^2 -> f2
+f2*f3 -> f2*f3^2
+f3^2 -> f2^2*f3
+f1*f2^2 -> f1
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f2^2*f3^2
+f2^2*f3 -> f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f3
+f1*f2^2*f3^2 -> f1*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2^2
+f2 -> f2^2
+f3 -> f2*f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2^2*f3
+f2^2 -> f2
+f2*f3 -> f3^2
+f3^2 -> f2*f3
+f1*f2^2 -> f1
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f2^2*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f3
+f1*f2^2*f3 -> f1*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2^2
+f2 -> f2
+f3 -> f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2^2*f3
+f2^2 -> f2^2
+f2*f3 -> f2^2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f2^2*f3^2
+f2^2*f3 -> f2*f3^2
+f2*f3^2 -> f2^2*f3
+f1*f2^2*f3 -> f1*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2*f3
+f1*f2^2*f3^2 -> f1*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2^2
+f2 -> f2
+f3 -> f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2^2*f3
+f2^2 -> f2^2
+f2*f3 -> f2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f2^2*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2^2
+f2 -> f2
+f3 -> f2^2*f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2^2*f3
+f2^2 -> f2^2
+f2*f3 -> f2*f3^2
+f3^2 -> f2^2*f3
+f1*f2^2 -> f1
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f2^2*f3^2
+f2^2*f3 -> f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f3
+f1*f2^2*f3^2 -> f1*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2^2
+f2 -> f2
+f3 -> f2*f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2^2*f3
+f2^2 -> f2^2
+f2*f3 -> f3^2
+f3^2 -> f2*f3
+f1*f2^2 -> f1
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f2^2*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f3
+f1*f2^2*f3 -> f1*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2
+f2 -> f2^2
+f3 -> f3^2
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2^2 -> f2
+f2*f3 -> f2^2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2^2*f3 -> f2*f3^2
+f2*f3^2 -> f2^2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f3^2
+f2^2*f3^2 -> f2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2
+f2 -> f2^2
+f3 -> f3^2
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2^2 -> f2
+f2*f3 -> f2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2
+f2 -> f2^2
+f3 -> f2^2*f3^2
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2^2 -> f2
+f2*f3 -> f2*f3^2
+f3^2 -> f2^2*f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2^2*f3 -> f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f3^2
+f2^2*f3^2 -> f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2
+f2 -> f2^2
+f3 -> f2*f3^2
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2^2 -> f2
+f2*f3 -> f3^2
+f3^2 -> f2*f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2
+f2 -> f2
+f3 -> f3^2
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2^2 -> f2^2
+f2*f3 -> f2^2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2^2*f3 -> f2*f3^2
+f2*f3^2 -> f2^2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f3^2
+f2^2*f3^2 -> f2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2
+f2 -> f2
+f3 -> f3^2
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2^2 -> f2^2
+f2*f3 -> f2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2
+f2 -> f2
+f3 -> f2^2*f3^2
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2^2 -> f2^2
+f2*f3 -> f2*f3^2
+f3^2 -> f2^2*f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2^2*f3 -> f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f3^2
+f2^2*f3^2 -> f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1*f2
+f2 -> f2
+f3 -> f2*f3^2
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2^2 -> f2^2
+f2*f3 -> f3^2
+f3^2 -> f2*f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2^2
+f1 -> f1
+f2 -> f2
+f3 -> f3^2
+f1*f2 -> f1*f2^2
+f1*f3 -> f1*f3
+f2^2 -> <identity> of ...
+f2*f3 -> f2^2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2
+f1*f2*f3 -> f1*f2^2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2*f3^2
+f2*f3^2 -> f2^2*f3
+f1*f2^2*f3 -> f1*f2*f3
+f1*f2*f3^2 -> f1*f2^2*f3^2
+f2^2*f3^2 -> f2*f3
+f1*f2^2*f3^2 -> f1*f2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2^2
+f1 -> f1
+f2 -> f2
+f3 -> f3^2
+f1*f2 -> f1*f2^2
+f1*f3 -> f1*f3
+f2^2 -> <identity> of ...
+f2*f3 -> f2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2
+f1*f2*f3 -> f1*f2^2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2*f3
+f1*f2*f3^2 -> f1*f2^2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2^2
+f1 -> f1
+f2 -> f2
+f3 -> f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> <identity> of ...
+f2*f3 -> f2^2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2*f3^2
+f2*f3^2 -> f2^2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2^2
+f1 -> f1
+f2 -> f2
+f3 -> f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> <identity> of ...
+f2*f3 -> f2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2^2
+f1 -> f1
+f2 -> f2
+f3 -> f2^2*f3^2
+f1*f2 -> f1*f2^2
+f1*f3 -> f1*f3
+f2^2 -> <identity> of ...
+f2*f3 -> f2*f3^2
+f3^2 -> f2^2*f3
+f1*f2^2 -> f1*f2
+f1*f2*f3 -> f1*f2^2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2*f3
+f1*f2*f3^2 -> f1*f2^2*f3^2
+f2^2*f3^2 -> f3
+f1*f2^2*f3^2 -> f1*f2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2^2
+f1 -> f1
+f2 -> f2
+f3 -> f2^2*f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> <identity> of ...
+f2*f3 -> f2*f3^2
+f3^2 -> f2^2*f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2^2
+f1 -> f1
+f2 -> f2
+f3 -> f2*f3^2
+f1*f2 -> f1*f2^2
+f1*f3 -> f1*f3
+f2^2 -> <identity> of ...
+f2*f3 -> f3^2
+f3^2 -> f2*f3
+f1*f2^2 -> f1*f2
+f1*f2*f3 -> f1*f2^2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f3
+f1*f2^2*f3 -> f1*f2*f3
+f1*f2*f3^2 -> f1*f2^2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2^2
+f1 -> f1
+f2 -> f2
+f3 -> f2*f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> <identity> of ...
+f2*f3 -> f3^2
+f3^2 -> f2*f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2^2
+f1 -> f1*f2^2
+f2 -> f2
+f3 -> f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2^2*f3
+f2^2 -> <identity> of ...
+f2*f3 -> f2^2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f2^2*f3^2
+f2^2*f3 -> f2*f3^2
+f2*f3^2 -> f2^2*f3
+f1*f2^2*f3 -> f1*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2*f3
+f1*f2^2*f3^2 -> f1*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2^2
+f1 -> f1*f2^2
+f2 -> f2
+f3 -> f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2^2*f3
+f2^2 -> <identity> of ...
+f2*f3 -> f2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f2^2*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2^2
+f1 -> f1*f2^2
+f2 -> f2
+f3 -> f2^2*f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2^2*f3
+f2^2 -> <identity> of ...
+f2*f3 -> f2*f3^2
+f3^2 -> f2^2*f3
+f1*f2^2 -> f1
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f2^2*f3^2
+f2^2*f3 -> f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f3
+f1*f2^2*f3^2 -> f1*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2^2
+f1 -> f1*f2^2
+f2 -> f2
+f3 -> f2*f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2^2*f3
+f2^2 -> <identity> of ...
+f2*f3 -> f3^2
+f3^2 -> f2*f3
+f1*f2^2 -> f1
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f2^2*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f3
+f1*f2^2*f3 -> f1*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2^2
+f1 -> f1*f2
+f2 -> f2
+f3 -> f3^2
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2^2 -> <identity> of ...
+f2*f3 -> f2^2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2^2*f3 -> f2*f3^2
+f2*f3^2 -> f2^2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f3^2
+f2^2*f3^2 -> f2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2^2
+f1 -> f1*f2
+f2 -> f2
+f3 -> f3^2
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2^2 -> <identity> of ...
+f2*f3 -> f2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2^2
+f1 -> f1*f2
+f2 -> f2
+f3 -> f2^2*f3^2
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2^2 -> <identity> of ...
+f2*f3 -> f2*f3^2
+f3^2 -> f2^2*f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2^2*f3 -> f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f3^2
+f2^2*f3^2 -> f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2^2
+f1 -> f1*f2
+f2 -> f2
+f3 -> f2*f3^2
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2^2 -> <identity> of ...
+f2*f3 -> f3^2
+f3^2 -> f2*f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1
+f2 -> <identity> of ...
+f3 -> f3^2
+f1*f2 -> f1*f2^2
+f1*f3 -> f1*f3
+f2^2 -> f2^2
+f2*f3 -> f2^2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2
+f1*f2*f3 -> f1*f2^2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2*f3^2
+f2*f3^2 -> f2^2*f3
+f1*f2^2*f3 -> f1*f2*f3
+f1*f2*f3^2 -> f1*f2^2*f3^2
+f2^2*f3^2 -> f2*f3
+f1*f2^2*f3^2 -> f1*f2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1
+f2 -> <identity> of ...
+f3 -> f3^2
+f1*f2 -> f1*f2^2
+f1*f3 -> f1*f3
+f2^2 -> f2^2
+f2*f3 -> f2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2
+f1*f2*f3 -> f1*f2^2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2*f3
+f1*f2*f3^2 -> f1*f2^2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1
+f2 -> <identity> of ...
+f3 -> f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> f2^2
+f2*f3 -> f2^2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2*f3^2
+f2*f3^2 -> f2^2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1
+f2 -> <identity> of ...
+f3 -> f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> f2^2
+f2*f3 -> f2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1
+f2 -> <identity> of ...
+f3 -> f2^2*f3^2
+f1*f2 -> f1*f2^2
+f1*f3 -> f1*f3
+f2^2 -> f2^2
+f2*f3 -> f2*f3^2
+f3^2 -> f2^2*f3
+f1*f2^2 -> f1*f2
+f1*f2*f3 -> f1*f2^2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2*f3
+f1*f2*f3^2 -> f1*f2^2*f3^2
+f2^2*f3^2 -> f3
+f1*f2^2*f3^2 -> f1*f2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1
+f2 -> <identity> of ...
+f3 -> f2^2*f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> f2^2
+f2*f3 -> f2*f3^2
+f3^2 -> f2^2*f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1
+f2 -> <identity> of ...
+f3 -> f2*f3^2
+f1*f2 -> f1*f2^2
+f1*f3 -> f1*f3
+f2^2 -> f2^2
+f2*f3 -> f3^2
+f3^2 -> f2*f3
+f1*f2^2 -> f1*f2
+f1*f2*f3 -> f1*f2^2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f3
+f1*f2^2*f3 -> f1*f2*f3
+f1*f2*f3^2 -> f1*f2^2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1
+f2 -> <identity> of ...
+f3 -> f2*f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> f2^2
+f2*f3 -> f3^2
+f3^2 -> f2*f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1*f2^2
+f2 -> <identity> of ...
+f3 -> f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2^2*f3
+f2^2 -> f2^2
+f2*f3 -> f2^2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f2^2*f3^2
+f2^2*f3 -> f2*f3^2
+f2*f3^2 -> f2^2*f3
+f1*f2^2*f3 -> f1*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2*f3
+f1*f2^2*f3^2 -> f1*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1*f2^2
+f2 -> <identity> of ...
+f3 -> f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2^2*f3
+f2^2 -> f2^2
+f2*f3 -> f2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f2^2*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1*f2^2
+f2 -> <identity> of ...
+f3 -> f2^2*f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2^2*f3
+f2^2 -> f2^2
+f2*f3 -> f2*f3^2
+f3^2 -> f2^2*f3
+f1*f2^2 -> f1
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f2^2*f3^2
+f2^2*f3 -> f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f3
+f1*f2^2*f3^2 -> f1*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1*f2^2
+f2 -> <identity> of ...
+f3 -> f2*f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f2^2*f3
+f2^2 -> f2^2
+f2*f3 -> f3^2
+f3^2 -> f2*f3
+f1*f2^2 -> f1
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f2^2*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f3
+f1*f2^2*f3 -> f1*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1*f2
+f2 -> <identity> of ...
+f3 -> f3^2
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2^2 -> f2^2
+f2*f3 -> f2^2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2^2*f3 -> f2*f3^2
+f2*f3^2 -> f2^2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f3^2
+f2^2*f3^2 -> f2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1*f2
+f2 -> <identity> of ...
+f3 -> f3^2
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2^2 -> f2^2
+f2*f3 -> f2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1*f2
+f2 -> <identity> of ...
+f3 -> f2^2*f3^2
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2^2 -> f2^2
+f2*f3 -> f2*f3^2
+f3^2 -> f2^2*f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2^2*f3 -> f3^2
+f2*f3^2 -> f2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f3^2
+f2^2*f3^2 -> f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+G = C3 x S3
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> f2
+f1 -> f1*f2
+f2 -> <identity> of ...
+f3 -> f2*f3^2
+f1*f2 -> f1
+f1*f3 -> f1*f2*f3
+f2^2 -> f2^2
+f2*f3 -> f3^2
+f3^2 -> f2*f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f3
+f1*f3^2 -> f1*f2*f3^2
+f2^2*f3 -> f2^2*f3^2
+f2*f3^2 -> f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f3^2
+f2^2*f3^2 -> f2^2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+Rough upper bound on the number of good involutions of Conj C3 x S3: 19683
+Actual number of good involutions of Conj C3 x S3: 64
+
+G = (C3 x C3) : C2
+X = [ <identity> of ..., f1, f2, f3, f1*f2, f1*f3, f2^2, f2*f3, f3^2, f1*f2^2, f1*f2*f3, f1*f3^2, f2^2*f3, f2*f3^2, 
+  f1*f2^2*f3, f1*f2*f3^2, f2^2*f3^2, f1*f2^2*f3^2 ]
+rho: 
+<identity> of ... -> <identity> of ...
+f1 -> f1
+f2 -> f2^2
+f3 -> f3^2
+f1*f2 -> f1*f2
+f1*f3 -> f1*f3
+f2^2 -> f2
+f2*f3 -> f2^2*f3^2
+f3^2 -> f3
+f1*f2^2 -> f1*f2^2
+f1*f2*f3 -> f1*f2*f3
+f1*f3^2 -> f1*f3^2
+f2^2*f3 -> f2*f3^2
+f2*f3^2 -> f2^2*f3
+f1*f2^2*f3 -> f1*f2^2*f3
+f1*f2*f3^2 -> f1*f2*f3^2
+f2^2*f3^2 -> f2*f3
+f1*f2^2*f3^2 -> f1*f2^2*f3^2
+
+Rough upper bound on the number of good involutions of Conj (C3 x C3) : C2: 1
+Actual number of good involutions of Conj (C3 x C3) : C2: 1
+
+Number of symmetric conjugation quandles of groups of order 18: 66
