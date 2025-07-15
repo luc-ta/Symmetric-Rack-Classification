@@ -32,7 +32,7 @@ end;
 symmConjSubs := function(n)
     local grpList, G, elemsG, allSubs, x, X, H, gensH, orbits, ZH, zetaGen, mapChoice, zetaValues, rhoValues, ok, j, mapping, orbitIdx, k, idx, localCount, globalCount;
 
-    PrintTo (Concatenation(GLR.path, "symm-conj-subqs-order-", String(n), ".txt"), "List of symmetric subquandles of Conj G for nonabelian groups G of order ", n, "\n \n");
+    PrintTo (Concatenation(LRQ.path, "symm-conj-subqs-order-", String(n), ".txt"), "List of symmetric subquandles of Conj G for nonabelian groups G of order ", n, "\n \n");
 	globalCount := 0;
 	grpList := AllSmallGroups(n);
     for G in grpList do
@@ -90,19 +90,19 @@ symmConjSubs := function(n)
 					# if we found a good involution, then print what it is
                     if ok then
                         localCount := localCount + 1;
-						AppendTo (Concatenation(GLR.path, "symm-conj-subqs-order-", String(n), ".txt"),"G = ", StructureDescription(G), "\n",
+						AppendTo (Concatenation(LRQ.path, "symm-conj-subqs-order-", String(n), ".txt"),"G = ", StructureDescription(G), "\n",
 							"X = ", X, "\n", "rho: \n");
                         for j in [1..Length(X)] do
-                            AppendTo(Concatenation(GLR.path, "symm-conj-subqs-order-", String(n), ".txt"),X[j], " -> ", rhoValues[j], "\n");
+                            AppendTo(Concatenation(LRQ.path, "symm-conj-subqs-order-", String(n), ".txt"),X[j], " -> ", rhoValues[j], "\n");
                         od;
-						AppendTo(Concatenation(GLR.path, "symm-conj-subqs-order-", String(n), ".txt"),"\n");
+						AppendTo(Concatenation(LRQ.path, "symm-conj-subqs-order-", String(n), ".txt"),"\n");
                     fi;
                 od;
             fi;
         od;
-		AppendTo(Concatenation(GLR.path, "symm-conj-subqs-order-", String(n), ".txt"), "Rough upper bound on the number of good involutions of Conj X: ", Size(ZH)^Size(orbits),"\n");
-		AppendTo(Concatenation(GLR.path, "symm-conj-subqs-order-", String(n), ".txt"),"Actual number of symmetric subquandles of Conj X: ", localCount, "\n\n");
+		AppendTo(Concatenation(LRQ.path, "symm-conj-subqs-order-", String(n), ".txt"), "Rough upper bound on the number of good involutions of Conj X: ", Size(ZH)^Size(orbits),"\n");
+		AppendTo(Concatenation(LRQ.path, "symm-conj-subqs-order-", String(n), ".txt"),"Actual number of symmetric subquandles of Conj X: ", localCount, "\n\n");
 		globalCount := globalCount + localCount;
     od;
-	AppendTo(Concatenation(GLR.path, "symm-conj-subqs-order-", String(n), ".txt"),"Number of symmetric subquandles of groups of order ", n, ": ", globalCount);
+	AppendTo(Concatenation(LRQ.path, "symm-conj-subqs-order-", String(n), ".txt"),"Number of symmetric subquandles of groups of order ", n, ": ", globalCount);
 end;
