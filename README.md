@@ -1,5 +1,5 @@
 # Symmetric-Rack-Classification
-GAP program for classifying racks, quandles, and kei with good involutions up to order 11 with data up to order 8. Also contains programs for computing good involutions of conjugation quandles and core quandles, with data up to order 23.
+GAP program for classifying racks, quandles, and kei with good involutions up to order 11, with data up to order 8. Also contains programs for computing good involutions of conjugation quandles and core quandles, with data up to order 23.
 
 Compiled by Lực Ta
 
