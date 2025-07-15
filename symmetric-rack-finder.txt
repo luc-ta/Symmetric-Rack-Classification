@@ -5,9 +5,9 @@ isoClasses := [];
 quandles := 0;
 kei := 0;
 nonisomorphicRacks := 1;
-PrintTo(Concatenation(GLR.path, "symmetric_racks_of_order_", String(n), ".txt"), "return [ ");
-PrintTo(Concatenation(GLR.path, "symmetric_quandles_of_order_", String(n), ".txt"), "return [ ");
-PrintTo (Concatenation(GLR.path, "symmetric_kei_of_order_", String(n), ".txt"),"return [ ");
+PrintTo(Concatenation(LRQ.path, "symmetric_racks_of_order_", String(n), ".txt"), "return [ ");
+PrintTo(Concatenation(LRQ.path, "symmetric_quandles_of_order_", String(n), ".txt"), "return [ ");
+PrintTo (Concatenation(LRQ.path, "symmetric_kei_of_order_", String(n), ".txt"),"return [ ");
 Print("Beginning search for symmetric racks of order ",String(n),".\n");
 
 for i in [1..k] do # test for good involutions
@@ -88,13 +88,13 @@ for i in [1..k] do # test for good involutions
 				# found a brand-new symmetric rack
 				underlyingCount := underlyingCount + 1;
 				Add(isoClasses,[R,rho]);
-				AppendTo (Concatenation(GLR.path, "symmetric_racks_of_order_", String(n), ".txt"), Concatenation(String([R,rho]),",\n"));
+				AppendTo (Concatenation(LRQ.path, "symmetric_racks_of_order_", String(n), ".txt"), Concatenation(String([R,rho]),",\n"));
 				if isQuandle then
 					quandles := quandles + 1;
-					AppendTo (Concatenation(GLR.path, "symmetric_quandles_of_order_", String(n), ".txt"), Concatenation(String([R,rho]),",\n"));
+					AppendTo (Concatenation(LRQ.path, "symmetric_quandles_of_order_", String(n), ".txt"), Concatenation(String([R,rho]),",\n"));
 					if isKei then
 						kei := kei + 1;
-						AppendTo (Concatenation(GLR.path, "symmetric_kei_of_order_", String(n), ".txt"), Concatenation(String([R,rho]),",\n"));
+						AppendTo (Concatenation(LRQ.path, "symmetric_kei_of_order_", String(n), ".txt"), Concatenation(String([R,rho]),",\n"));
 					fi;
 				fi;
 			fi;
@@ -103,9 +103,9 @@ for i in [1..k] do # test for good involutions
 	nonisomorphicRacks := nonisomorphicRacks + underlyingCount;
 od;
 
-AppendTo (Concatenation(GLR.path, "symmetric_racks_of_order_", String(n), ".txt")," ];");
-AppendTo (Concatenation(GLR.path, "symmetric_quandles_of_order_", String(n), ".txt")," ];");
-AppendTo (Concatenation(GLR.path, "symmetric_kei_of_order_", String(n), ".txt")," ];");
+AppendTo (Concatenation(LRQ.path, "symmetric_racks_of_order_", String(n), ".txt")," ];");
+AppendTo (Concatenation(LRQ.path, "symmetric_quandles_of_order_", String(n), ".txt")," ];");
+AppendTo (Concatenation(LRQ.path, "symmetric_kei_of_order_", String(n), ".txt")," ];");
 Print(Concatenation("Symmetric racks of order ",String(n),": ",String(Length(isoClasses)),"\n"));
 Print(Concatenation("Symmetric quandles of order ",String(n),": ",String(quandles),"\n"));
 Print(Concatenation("Symmetric kei of order ",String(n),": ",String(kei),"\n"));
