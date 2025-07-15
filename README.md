@@ -5,7 +5,7 @@ Compiled by Lực Ta
 
 Based on the rack library of Petr Vojtěchovský and Seung Yeop Yang (https://www.cs.du.edu/~petr/libraries_of_algebraic_structures.html)
 
-See the paper ["Good involutions of conjugation subquandles"](https://arxiv.org/) for further information.
+See the paper ["Good involutions of conjugation subquandles"](https://arxiv.org/abs/2505.08090) for further information.
 
 ## Usage
 ### Classification up to isomorphism
