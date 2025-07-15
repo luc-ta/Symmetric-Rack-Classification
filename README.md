@@ -22,6 +22,6 @@ Here, `racks` is a list whose _n_-th entry is the number of isomorphism classes 
 
 For example, to compute good involutions of conjugation quandles Conj G for all nonabelian groups G up to order 23, run the following. As discussed above, replace "LRQ.path" as needed.
 ```
-ReadAsFunction(Concatenation(LRQ.path, "symmetric-rack-finder.txt"))()(n,racks[n]);
+Read(Concatenation(LRQ.path, "symmetric-rack-finder.txt"))()(n,racks[n]);
 for n in [6..23] do symmConj(n); od;
 ```
