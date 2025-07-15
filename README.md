@@ -20,7 +20,7 @@ Here, `racks` is a list whose _n_-th entry is the number of isomorphism classes 
 ## Computation for conjugation and core quandles
 `conj-finder.txt`, `conj-subquandle-finder.txt`, and `core-finder.txt` respectively compute good involutions of all nontrivial conjugation quandles Conj G, all subquandles Conj X of nontrivial conjugation quandles Conj G, and nontrivial core quandles Core G for all groups of a given order _n_. After reading these files into GAP, the functions are called by `symmConj(n)`, `symmConjSubs(n)`, and `symmCore(n)`, respectively.
 
-For example, to compute good involutions of conjugation quandles Core G for all nonabelian groups G up to order 23, run the following. As discussed above, replace "LRQ.path" as needed.
+For example, to compute good involutions of conjugation quandles Conj G for all nonabelian groups G up to order 23, run the following. As discussed above, replace "LRQ.path" as needed.
 ```
 ReadAsFunction(Concatenation(LRQ.path, "symmetric-rack-finder.txt"))()(n,racks[n]);
 for n in [6..23] do symmConj(n); od;
