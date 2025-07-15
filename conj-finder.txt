@@ -38,10 +38,11 @@ symmConj := function(n)
 	globalCount := 0;
 	grpList := AllSmallGroups(n);
     for G in grpList do
+		# conjugation quandles of abelian groups are trivial, so skip them
 		if IsAbelian(G) then continue; fi;
 		localCount := 0;
         X := Elements(G);
-		# compute G(Inn G) and Z(G)
+		# compute G/(Inn G) and Z(G)
 		orbits := OrbitsDomain(G, X, OnPoints);
 		ZG := Elements(Centre(G));
 		mapping := List(X, x -> 0);
