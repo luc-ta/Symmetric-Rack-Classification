@@ -1,5 +1,3 @@
-## GAP script to iterate over groups of order n and subsets X closed under conjugation by H = <X>, with lazy evaluation of zeta^* assignments
-
 # Generator: yields one zeta^* assignment at a time
 ZetaGenerator := function(domainList, codomainList)
     local len, indices, done, Next;
